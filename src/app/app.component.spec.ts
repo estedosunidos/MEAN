@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'MEAN'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('MEAN');
+    expect(app.onPostAdded).toEqual('MEAN');
   });
 
   it('should render title', () => {
